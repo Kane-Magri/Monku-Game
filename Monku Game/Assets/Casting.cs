@@ -5,7 +5,7 @@ using UnityEngine;
 public class Casting : MonoBehaviour {
    
     public Transform firePoint;
-    public GameObject fireballPrefab; 
+    public GameObject bulletPrefab; 
 
     // Update is called once per frame
     void Update () {
@@ -17,6 +17,6 @@ public class Casting : MonoBehaviour {
 
     void Shoot ()  
     {
-        Instantiate(fireballPrefab, firePoint.position, firePoint.rotation);        
+        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);        
     }  
 }
