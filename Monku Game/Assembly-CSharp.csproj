@@ -65,6 +65,7 @@
      <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\NextLevel.cs" />
      <Compile Include="Assets\PlayerMovement.cs" />
+     <Compile Include="Assets\PrevLevel.cs" />
      <Compile Include="Assets\ScoreManager.cs" />
  <Reference Include="Unity.PackageManagerUI.Editor">
  <HintPath>D:/School/Unity Files/MONKU/Monku-Game/Monku Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
