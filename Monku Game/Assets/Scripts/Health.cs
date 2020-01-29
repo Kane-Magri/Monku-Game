@@ -11,6 +11,23 @@ public class Health : MonoBehaviour {
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
+    public GameObject deathEffect;
+
+    public void TakeDamage (int damage)
+    {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            Die ();
+        }
+    }
+
+    void Die ()
+    {
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+    }
 
     void Update(){
 

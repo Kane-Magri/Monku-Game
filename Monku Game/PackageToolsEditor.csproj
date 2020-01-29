@@ -53,9 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AstarPathfindingProject\PackageTools\Editor\EditorBase.cs" />
-     <Compile Include="Assets\AstarPathfindingProject\PackageTools\Editor\EditorGUIx.cs" />
-     <Compile Include="Assets\AstarPathfindingProject\PackageTools\Editor\EnumFlagDrawer.cs" />
+     <Compile Include="Assets\Assets\AstarPathfindingProject\PackageTools\Editor\EditorBase.cs" />
+     <Compile Include="Assets\Assets\AstarPathfindingProject\PackageTools\Editor\EditorGUIx.cs" />
+     <Compile Include="Assets\Assets\AstarPathfindingProject\PackageTools\Editor\EnumFlagDrawer.cs" />
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/Unity/2018.4.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
@@ -290,9 +290,6 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>D:/Unity/2018.4.12f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>D:/School/Unity Files/MONKU/Monku-Game/Monku Game/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>D:/School/Unity Files/MONKU/Monku-Game/Monku Game/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -307,6 +304,9 @@
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>D:/School/Unity Files/MONKU/Monku-Game/Monku Game/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>D:/School/Unity Files/MONKU/Monku-Game/Monku Game/Assets/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/Unity/2018.4.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
