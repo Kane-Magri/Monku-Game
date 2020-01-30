@@ -29,7 +29,7 @@ public class Health : MonoBehaviour {
         Destroy(gameObject);
     }
 
-    void Update(){
+    void Update (){
 
 
         if(health > numOfHearts){

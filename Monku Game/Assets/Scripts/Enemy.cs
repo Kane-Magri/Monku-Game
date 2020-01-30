@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
     
     public int health = 100;
-    public int damage = 40;
+    public int damage = 1;
     public GameObject deathEffect;
     public GameObject impactEffect;
 
@@ -25,13 +25,12 @@ public class Enemy : MonoBehaviour {
         Destroy(gameObject);    
     }
 
-    void OnTriggerEnter2D (Collider2D hitInfo)
-    {   
-        Health health = hitInfo.GetComponent<Health>();
-        if (health != null)
-        {
-            health.TakeDamage(damage);
-        }
-    }       
-
-}
+    void OnTriggerEnter2D (Collider2D collision)
+    {
+        if (collision.gameObject.name.Equals("Player"))
+        {   
+            GameControlScript.health -= 1;
+            SoundManagerScript.PlaySound ("enemyDeath");
+        }       
+    }
+}   

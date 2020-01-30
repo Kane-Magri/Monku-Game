@@ -11,7 +11,8 @@ public class Casting : MonoBehaviour {
     void Update () {
         if (Input.GetButtonDown("Fire1"))
         {
-            Shoot();  
+            Shoot();
+            SoundManagerScript.PlaySound ("fire");  
         }       
     }
 
